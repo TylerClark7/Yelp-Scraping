@@ -3,7 +3,7 @@ This script will run when a url is presented in this format
 
 ```python
 #A url needs to be given upon creation of scraper_bot
-bot = scraper_bot(f"https://www.yelp.com/search?find_desc=&find_loc={city}%2C+{state_abbreviation}+{Zip-code}")
+bot = scraper_bot(f"https://www.yelp.com/search?find_desc=&find_loc={city}%2C+{state_abbreviation}+{Zipcode}")
 bot.scrape_urls()
 
 
